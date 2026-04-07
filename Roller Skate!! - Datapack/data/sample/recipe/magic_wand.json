@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":[
+    "  X",
+    " # ",
+    "#  "
+  ],
+  "key": {
+    
+  },
+  "result": {
+    "id": "warped_fungus_on_a_stick",
+    "components": {
+      "minecraft:item_model": "sample:magic_wand",
+      "minecraft:item_name": {
+        "translate": "item.sample.magic_wand"
+      },
+      "minecraft:lore": [
+        {
+        "translate": "item_lore.sample.magic_wand",
+        "color": "gray",
+        "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "item": "sample_magic_wand"
+    }
+   },
+   "count": 1
+  }
+}

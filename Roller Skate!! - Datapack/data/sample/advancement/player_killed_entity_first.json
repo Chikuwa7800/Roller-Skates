@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "id": "stone_sword",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancements.sample.killed_entity_first.title"
+    },
+    "description": {
+      "translate": "advancements.sample.killed_entity_first.description"
+    },
+    "frame": "challenge"
+  },
+  "criteria": {
+    "p_k_e": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "parent": "adventure/root"
+}

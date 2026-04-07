@@ -1,0 +1,12 @@
+{
+    "criteria": {
+        "join":{
+            "trigger": "location"
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "sample:magic_wand"
+        ]
+    }
+}
