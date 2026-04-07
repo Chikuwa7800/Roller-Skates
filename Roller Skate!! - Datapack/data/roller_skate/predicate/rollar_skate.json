@@ -6,11 +6,11 @@
             "entity":"this",
             "predicate": {
                 "slots": {
-                    "weapon.mainhand": {
-                        "items": "warped_fungus_on_a_stick",
+                    "armor.feet": {
+                        "items": "clock",
                         "predicates": {
                             "custom_data": {
-                                "item": "roller_skate_magic_wand"
+                                "item": "roller_skate"
                             }
                         }
                     }

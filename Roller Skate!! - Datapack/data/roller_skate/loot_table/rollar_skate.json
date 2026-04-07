@@ -12,9 +12,7 @@
             {
               "function": "minecraft:set_components",
               "components": {
-
                 "minecraft:item_model": "roller_skate:roller_skate",
-
                 "minecraft:item_name": {
                   "translate": "item.roller_skate"
                 },
@@ -26,7 +24,6 @@
                     "italic": false
                   }
                 ],
-
                 "minecraft:custom_data": {
                   "item": "roller_skate"
                 },

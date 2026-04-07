@@ -1,30 +1,51 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern":[
-    "  X",
-    " # ",
-    "#  "
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+    "iron_boots",
+    "#concrete"
   ],
-  "key": {
-    
-  },
   "result": {
-    "id": "warped_fungus_on_a_stick",
+    "id": "clock",
     "components": {
-      "minecraft:item_model": "roller_skate:magic_wand",
-      "minecraft:item_name": {
-        "translate": "item.roller_skate.magic_wand"
-      },
-      "minecraft:lore": [
-        {
-        "translate": "item_lore.roller_skate.magic_wand",
-        "color": "gray",
-        "italic": false
-        }
-      ],
-      "minecraft:custom_data": {
-        "item": "roller_skate_magic_wand"
-    }
+      "minecraft:item_model": "roller_skate:roller_skate",
+                "minecraft:item_name": {
+                  "translate": "item.roller_skate"
+                },
+
+                "minecraft:lore": [
+                  {
+                    "translate": "item_lore.roller_skate",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "minecraft:custom_data": {
+                  "item": "roller_skate"
+                },
+                "minecraft:max_stack_size": 1,
+                "minecraft:equippable": {
+                  "slot": "feet",
+                  "asset_id": "minecraft:iron",
+                  "equip_sound": "minecraft:item.armor.equip_turtle",
+                  "damage_on_hurt": true
+                },
+                "minecraft:max_damage": 241,
+                "attribute_modifiers": [
+                  {
+                    "slot": "feet",
+                    "type": "minecraft:friction_modifier",
+                    "id": "minecraft:temp",
+                    "operation": "add_value",
+                    "amount": 0.25
+                  },
+                  {
+                    "slot": "feet",
+                    "type": "minecraft:bounciness",
+                    "id": "minecraft:temp",
+                    "operation": "add_value",
+                    "amount": 0.125
+                  }
+                ]
    },
    "count": 1
   }
