@@ -39,16 +39,37 @@
                   {
                     "slot": "feet",
                     "type": "minecraft:friction_modifier",
-                    "id": "minecraft:temp",
+                    "id": "temp",
                     "operation": "add_value",
-                    "amount": 0.25
+                    "amount": -1.75
+                  },
+                  {
+                    "slot": "feet",
+                    "type": "minecraft:air_drag_modifier",
+                    "id": "temp",
+                    "operation": "add_value",
+                    "amount": -0.25
+                  },
+                  {
+                    "slot": "feet",
+                    "type": "minecraft:movement_speed",
+                    "id": "temp",
+                    "operation": "add_value",
+                    "amount": 0.025
+                  },
+                  {
+                    "slot": "feet",
+                    "type": "minecraft:step_height",
+                    "id": "temp",
+                    "operation": "add_value",
+                    "amount": 1.25
                   },
                   {
                     "slot": "feet",
                     "type": "minecraft:bounciness",
-                    "id": "minecraft:temp",
+                    "id": "temp",
                     "operation": "add_value",
-                    "amount": 0.125
+                    "amount": 0.25
                   }
                 ]
               }
