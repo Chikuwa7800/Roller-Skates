@@ -1,0 +1,21 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity":"this",
+            "predicate": {
+                "slots": {
+                    "weapon.mainhand": {
+                        "items": "warped_fungus_on_a_stick",
+                        "predicates": {
+                            "custom_data": {
+                                "item": "roller_skate_magic_wand"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}

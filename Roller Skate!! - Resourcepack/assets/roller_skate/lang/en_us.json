@@ -1,0 +1,9 @@
+{
+    "advancements.roller_skate.get.title":"つるつる滑る大事故の味方",
+    "advancements.roller_skate.get.description":"ローラースケートを手に入れる",
+    "death.attack.accident": "%1$sは轢殺された",
+    "death.attack.accident.player": "%1$sは%2$sのローラースケートに轢殺された",
+    "death.attack.accident.item": "%1$sは%3$sを振るう%2$sのローラースケートに轢殺された",
+    "item.roller_skate": "ローラースケート",
+    "item_lore.roller_skate": "走ってぶつかってどっかーん"
+}
